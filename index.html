@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для работы</title>
+</head>
+<body>
+    <main>
+        <form>
+            <div>
+                <label for="name">Напишите ФИО</label>
+                <input required id="name" type="text" maxlength="50">
+            </div>
+            <div>
+                <label for="email">Ваш email</label>
+                <input required id="email" type="email">
+            </div>
+            <fieldset>
+                <legend>Выберите направление</legend>
+                <label><input required type="radio" name="developer" value="frontend">Frontend-разработчик</label>
+                <label><input type="radio" name="developer" value="backend">Backend-разработчик</label>
+                <label><input type="radio" name="developer" value="fullstack">Fullstack-разработчик</label>
+            </fieldset>
+            <div>
+                <label for="message">Сообщение</label>
+                <input id="message" type="text">
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+</body>
+</html>
