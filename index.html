@@ -10,11 +10,11 @@
         <form>
             <div>
                 <label for="name">Напишите ФИО</label>
-                <input required id="name" type="text" maxlength="50">
+                <input name="name" required id="name" type="text" maxlength="50">
             </div>
             <div>
                 <label for="email">Ваш email</label>
-                <input required id="email" type="email">
+                <input name="email" required id="email" type="email">
             </div>
             <fieldset>
                 <legend>Выберите направление</legend>
@@ -24,7 +24,7 @@
             </fieldset>
             <div>
                 <label for="message">Сообщение</label>
-                <input id="message" type="text">
+                <textarea name="message" id="message"></textarea>
             </div>
             <button type="submit">Отправить</button>
         </form>
